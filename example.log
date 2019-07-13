@@ -1,0 +1,99 @@
+INFO:root:Case1: Valid Password
+INFO:root:Old Password matched successfully with system
+INFO:root:New Password validated successfully
+INFO:root:Case1: verified successfully
+
+INFO:root:Case2: Boundary level Passwords
+INFO:root:Case2a: Single Uppercase character and single special character
+INFO:root:Old Password matched successfully with system
+INFO:root:New Password validated successfully
+INFO:root:Case2a: Single Uppercase character and single special character verified successfully
+
+INFO:root:Case2b: Single Lowercase character and single digit
+INFO:root:Old Password matched successfully with system
+INFO:root:New Password validated successfully
+INFO:root:Case2b: Single Lowercase character and single digit verified successfully
+
+INFO:root:Case2c: Exact 18 length character and 50% numbers
+INFO:root:Old Password matched successfully with system
+INFO:root:New Password validated successfully
+INFO:root:Case2c: Exact 18 length character and 50% numbers verified successfully
+
+INFO:root:Case2d: Exact 4 duplicated repeated character in password
+INFO:root:Old Password matched successfully with system
+INFO:root:New Password validated successfully
+INFO:root:Case2d: Exact 4 duplicated repeated character in password verified successfully
+
+INFO:root:Case2e: Exact 4 special characters in password
+INFO:root:Old Password matched successfully with system
+INFO:root:New Password validated successfully
+INFO:root:Case2e: Exact 4 special characters in password verified successfully
+
+INFO:root:Case3: Password length is less then 18
+INFO:root:Old Password matched successfully with system
+INFO:root:Password Length should be greater than 18
+INFO:root:Not a valid Password
+INFO:root:Successfully handled exception when password length is less then 18
+
+INFO:root:Case4: No lowercase character in password
+INFO:root:Old Password matched successfully with system
+INFO:root:Password should have atleast 1 Lowercase Character
+INFO:root:Not a valid Password
+INFO:root:Successfully handled exception when no lowercase character in password
+
+INFO:root:Case5: No uppercase character in password
+INFO:root:Old Password matched successfully with system
+INFO:root:Password should have atleast 1 Uppercase Character
+INFO:root:Not a valid Password
+INFO:root:Successfully handled exception when no uppercase character in password
+
+INFO:root:Case6: No digit in password
+INFO:root:Old Password matched successfully with system
+INFO:root:Password should have atleast 1 digit
+INFO:root:Not a valid Password
+INFO:root:Successfully handled exception when no digits in password
+
+INFO:root:Case7: No special characters in password
+INFO:root:Old Password matched successfully with system
+INFO:root:Password should have atleast 1 special characters from !@#$&*
+INFO:root:Not a valid Password
+INFO:root:Successfully handled exception when no special characters in password
+
+INFO:root:Case8: No whitespace characters in password
+INFO:root:Old Password matched successfully with system
+INFO:root:Password should not contain any whitespace characters
+INFO:root:Not a valid Password
+INFO:root:Successfully handled exception when whitespace characters in password
+
+INFO:root:Case9: Duplicate repeat characters more than 4 times in password
+INFO:root:Old Password matched successfully with system
+INFO:root:Password should not have duplicate repeat characters more than 4 times
+INFO:root:Not a valid Password
+INFO:root:Successfully handled exception when duplicate repeat characters more than 4            times in password
+
+INFO:root:Case10: Special Characters more than 4 times in password
+INFO:root:Old Password matched successfully with system
+INFO:root:Password should not have more then 4 special characters
+INFO:root:Not a valid Password
+INFO:root:Successfully handled exception when Special Characters more than 4 times in password
+
+INFO:root:Case11: Numbers more than 50% of the length of password
+INFO:root:Old Password matched successfully with system
+INFO:root:Password should not contain more than 50% digits of the length
+INFO:root:Not a valid Password
+INFO:root:Successfully handled exception when Numbers more than 50% of the length in password
+
+INFO:root:Case12: Old password doesn't match the system
+INFO:root:Sorry, Password didn't match in the system
+INFO:root:Successfully handled exception when old password doesn't match in the system
+
+INFO:root:Case13: Old password is empty
+INFO:root:Cannot verify empty string
+INFO:root:Successfully handled exception when old password doesn't match in the system
+
+INFO:root:Case14: New password not similar to old password or greater then 80% similar
+INFO:root:Old Password matched successfully with system
+INFO:root:Password Length should be greater than 18
+INFO:root:Not a valid Password
+INFO:root:Successfully handled exception when new password is similar to old password
+
