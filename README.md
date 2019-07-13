@@ -1,4 +1,4 @@
-# =========== Change password function ==============
+# Change password function
 
 My script completes the below tasks.
 
@@ -22,18 +22,21 @@ which return True/False
 3. password is not similar to old password < 80% match.
 ==================================================
 
-Running the script changepasswordtask.py will ask the user to either enter a new password or to change an existing password.
+Script __changepasswordtask.py__ has all the functions for verifying old password with system, validating new password with above defined password requirement and checking similarity between old and new passwords.
 
+For verifying old password with system, making use of list of password strings stored in class variable and comparing against old password passed through testcase.
+For validating new password, passing the new password and validating against the requirements.
+For similarity check, passing old and new passwords and comparing them.
+
+Now lets install the requirements for running the above scripts.
 ```
 pip install -r requirements.txt
-python changepasswordtask.py
-
 ```
+Lets run the testcase script
 
-Running the Test Case script __testPasswordChangeTask.py__ will verify if the Password maches the Strong Password Criteria and outputs the logs to __example.log__. I have attached a sample log file.
+Running the Test Case script __testPasswordChangeTask.py__ will verify if the old password matches the mock system passwords and new password matches the strong password criteria, also a similarity check for old and new passwords and outputs the logs to __example.log__. I have attached a sample log file.
 
 ```
 python testPasswordChangeTask.py
-
 ```
 
