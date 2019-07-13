@@ -42,22 +42,22 @@ Running the Test Case script __testPasswordChangeTask.py__ will verify if the ol
 
 Following cases are covered in test script :-
 ```
-__Case1:__ Valid Password  
-__Case2a:__ Single Uppercase character and single special character  
-__Case2b:__ Single Lowercase character and single digit  
-__Case2c:__ Exact 18 length character and 50% numbers  
-__Case2d:__ Exact 4 duplicated repeated character in password  
-__Case2e:__ Exact 4 special characters in password  
-__Case3:__ Password length is less then 18  
-__Case4:__ No lowercase character in password  
-__Case5:__ No uppercase character in password  
-__Case6:__ No digit in password  
-__Case7:__ No special characters in password  
-__Case8:__ No whitespace characters in password  
-__Case9:__ Duplicate repeat characters more than 4 times in password  
-__Case10:__ Special Characters more than 4 times in password  
-__Case11:__ Numbers more than 50% of the length of password  
-__Case12:__ Old password doesn't match the system  
-__Case13:__ Old password is empty  
-__Case14:__ New password not similar to old password or greater then 80% similar  
+Case1: Valid Password  
+Case2a: Single Uppercase character and single special character  
+Case2b: Single Lowercase character and single digit  
+Case2c: Exact 18 length character and 50% numbers  
+Case2d: Exact 4 duplicated repeated character in password  
+Case2e: Exact 4 special characters in password  
+Case3: Password length is less then 18  
+Case4: No lowercase character in password  
+Case5: No uppercase character in password  
+Case6: No digit in password  
+Case7: No special characters in password  
+Case8: No whitespace characters in password  
+Case9: Duplicate repeat characters more than 4 times in password  
+Case10: Special Characters more than 4 times in password  
+Case11: Numbers more than 50% of the length of password  
+Case12: Old password doesn't match the system  
+Case13: Old password is empty  
+Case14: New password not similar to old password or greater then 80% similar  
 ```
