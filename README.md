@@ -42,20 +42,20 @@ Running the Test Case script __testPasswordChangeTask.py__ will verify if the ol
 
 Following cases are covered in test script :-
 
-1.Case1: Valid Password
-2.Case2a: Single Uppercase character and single special character
-3.Case2b: Single Lowercase character and single digit
-4.Case2c: Exact 18 length character and 50% numbers
-5.Case2d: Exact 4 duplicated repeated character in password
-6.Case2e: Exact 4 special characters in password
-7.Case3: Password length is less then 18
-8.Case4: No lowercase character in password
-9.Case5: No uppercase character in password
-10.Case6: No digit in password
-11.Case7: No special characters in password
-12.Case8: No whitespace characters in password
-13.Case9: Duplicate repeat characters more than 4 times in password
-14.Case10: Special Characters more than 4 times in password
-15.Case11: Numbers more than 50% of the length of password
-16.Case13: Old password is empty
-17.Case14: New password not similar to old password or greater then 80% similar
+1. Case1: Valid Password
+2. Case2a: Single Uppercase character and single special character
+3. Case2b: Single Lowercase character and single digit
+4. Case2c: Exact 18 length character and 50% numbers
+5. Case2d: Exact 4 duplicated repeated character in password
+6. Case2e: Exact 4 special characters in password
+7. Case3: Password length is less then 18
+8. Case4: No lowercase character in password
+9. Case5: No uppercase character in password
+10. Case6: No digit in password
+11. Case7: No special characters in password
+12. Case8: No whitespace characters in password
+13. Case9: Duplicate repeat characters more than 4 times in password
+14. Case10: Special Characters more than 4 times in password
+15. Case11: Numbers more than 50% of the length of password
+16. Case13: Old password is empty
+17. Case14: New password not similar to old password or greater then 80% similar
