@@ -41,7 +41,7 @@ python testPasswordChangeTask.py
 Running the Test Case script __testPasswordChangeTask.py__ will verify if the old password matches the mock system passwords and new password matches the strong password criteria, also a similarity check for old and new passwords and outputs the logs to __example.log__. I have attached a sample log file.
 
 Following cases are covered in test script :-
-
+```
 __Case1:__ Valid Password  
 __Case2a:__ Single Uppercase character and single special character  
 __Case2b:__ Single Lowercase character and single digit  
@@ -60,3 +60,4 @@ __Case11:__ Numbers more than 50% of the length of password
 __Case12:__ Old password doesn't match the system  
 __Case13:__ Old password is empty  
 __Case14:__ New password not similar to old password or greater then 80% similar  
+```
