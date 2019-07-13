@@ -24,9 +24,9 @@ which return True/False
 
 Script __changepasswordtask.py__ has all the functions for verifying old password with system, validating new password with above defined password requirement and checking similarity between old and new passwords.
 
-For verifying old password with system, making use of list of password strings stored in class variable and comparing against old password passed through testcase.
-For validating new password, passing the new password and validating against the requirements.
-For similarity check, passing old and new passwords and comparing them.
+1. For verifying old password with system, making use of list of password strings stored in class variable and comparing against old password passed through testcase.
+2. For validating new password, passing the new password and validating against the requirements.
+3. For similarity check, passing old and new passwords and comparing them.
 
 Now lets install the requirements for running the above scripts.
 ```
@@ -34,9 +34,9 @@ pip install -r requirements.txt
 ```
 Lets run the testcase script
 
-Running the Test Case script __testPasswordChangeTask.py__ will verify if the old password matches the mock system passwords and new password matches the strong password criteria, also a similarity check for old and new passwords and outputs the logs to __example.log__. I have attached a sample log file.
-
 ```
 python testPasswordChangeTask.py
 ```
+
+Running the Test Case script __testPasswordChangeTask.py__ will verify if the old password matches the mock system passwords and new password matches the strong password criteria, also a similarity check for old and new passwords and outputs the logs to __example.log__. I have attached a sample log file.
 
