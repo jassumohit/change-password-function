@@ -28,7 +28,9 @@ Script __changepasswordtask.py__ has all the functions for verifying old passwor
 2. For validating new password, passing the new password and validating against the requirements.
 3. For similarity check, passing old and new passwords and comparing them.
 
-Now lets install the requirements for running the above scripts.
+Requirements:-  
+Machine with python 3 installed  
+If logging module is not installed, run following command  
 ```
 pip install -r requirements.txt
 ```
